@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*** JSONObject ***"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"/>
+            <TextView
+                    android:id="@+id/tvTxtJsonObject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                <TextView
+                        android:id="@+id/tvNameObject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:id="@+id/tvNickNameObject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:id="@+id/tvAgeObject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:id="@+id/tvPhoneObject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*** JSONArray ***"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"/>
+            <TextView
+                    android:id="@+id/tvTxtJsonArray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                <TextView
+                        android:id="@+id/tvDeviceJsonArray1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:id="@+id/tvPriceJsonArray1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                <TextView
+                        android:id="@+id/tvDeviceJsonArray2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:id="@+id/tvPriceJsonArray2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                <TextView
+                        android:id="@+id/tvDeviceJsonArray3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+                <TextView
+                        android:id="@+id/tvPriceJsonArray3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
